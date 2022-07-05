@@ -14,7 +14,8 @@
       href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
       rel="stylesheet"
     />
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+   
   </head>
   <body>
     <!-- Semantic elements -->
@@ -43,7 +44,7 @@
         <div class="collapse navbar-collapse justify-content-center " id="navb">
           <ul class="navbar-nav mr-3 ">
             <li class="nav-item mx-md-2">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
              <li class="nav-item dropdown">
               <a
@@ -52,14 +53,17 @@
                 id="navbardrop"
                 data-toggle="dropdown"
               >
-                Menu
+                Package
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Menu 1</a>
-                <a class="dropdown-item" href="#">Menu 2</a>
-                <a class="dropdown-item" href="#">Menu 3</a>
-                <a class="dropdown-item" href="#">Menu 4</a>
-                <a class="dropdown-item" href="#">Menu 5</a>
+                <a class="dropdown-item" href="wedding.html">Wedding Package</a>
+                <a class="dropdown-item" href="#">Khitan Package</a>
+                <a class="dropdown-item" href="#">Aqiqah Package</a>
+                <a class="dropdown-item" href="#">Engagement Package</a>
+                <a class="dropdown-item" href="#">Complimen Package</a>
+                <a class="dropdown-item" href="#">Nasi Kotak</a>
+                <a class="dropdown-item" href="#">Tumpeng</a>
+                <a class="dropdown-item" href="#">Kue Basah | Kue Kering</a>
               </div>
             </li>
             <li class="mx-md-2"> <a class="navbar-brand" href="#">
@@ -70,15 +74,14 @@
               <a class="nav-link " href="#">Info</a>
             </li>
             <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#contactUs">Contact Us</a>
             </li>
           </ul>
 
        
         </div>
       </nav>
-    </div>
-
+</div>
 
     <!-- Header -->
     <header>
@@ -109,9 +112,9 @@
 </div>
     </header>
     <main>
-      <section class="tentang-kami">
+      <section class="tentang-kami" id="aboutUs">
         <div class="container">
-          <h1 class="text-center ">About Us</h1>
+          <h1 class="text-center ">ABOUT US</h1>
           <div class="row justify-content-center">
         <div class="foto-tentang col-lg-6 col-md-6 col-sm-12 mt-auto ">
           <img src="frontend/images/logo-catering.png" alt="">
@@ -124,12 +127,12 @@
     </div>
       <hr>
       </section>
-      <section class="product-kami bg-white">
-        <h1 class="text-center">Our Packages</h1>
+      <section class="product-kami bg-white" id="infoPackage">
+        <h1 class="text-center">PACKAGE</h1>
          
         <div class="container">
         <div class="row">
-          <div class="slide-produk col-lg-8 col-md-12 col-sm-12">
+          <div class="slide-produk col-lg-8 col-md-12 col-sm-12 mt-auto">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -211,13 +214,14 @@
           </div>
           <div class="nama-paket col-sm-12 col-md-8 col-lg-4 text-center">
             <div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action active">
+  <a href="#" class="list-group-item list-group-item-action list-group-item-dark">
     Our Package
   </a>
   <a href="#" class="list-group-item list-group-item-action">Wedding Package</a>
   <a href="#" class="list-group-item list-group-item-action">Khitan Package</a>
   <a href="#" class="list-group-item list-group-item-action">Aqiqah Package</a>
   <a href="#" class="list-group-item list-group-item-action">Engagement Package</a>
+  <a href="#" class="list-group-item list-group-item-action">Compliment Package</a>
   <a href="#" class="list-group-item list-group-item-action">Nasi Kotak</a>
   <a href="#" class="list-group-item list-group-item-action">Tumpeng</a>
   <a href="#" class="list-group-item list-group-item-action">Kue Basah | Kue Kering</a>
@@ -226,8 +230,147 @@
         </div>
         </div>
       </section>
-    </main>
+      <section class="why-choose">
+        <div class="container">
+          <div class="header-choose">
+            <div class="container text-center">
+              <h1>WHY CHOOSE</h1>
+              <h4>Catering Mbak I'a</h4>
+            </div>
+          </div>
+        <div class="row justify-content-center">
+          <div class="content-choose col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="icon-choose bi bi-award"></i>
+            <h3>Kualitas Terbaik</h3>
+            <p>Berpengalaman menjaga kualitas masakan & pelayanan selama lebih dari 5 tahun melayani warga Malang Raya dan berbagai Instansi Pemerintah maupun Swasta.</p>
 
+          </div>
+          <div class="content-choose col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="bi bi-cash-coin"></i>
+            <h3>Harga Terjangkau</h3>
+            <p>Berpengalaman menjaga kualitas masakan & pelayanan selama lebih dari 5 tahun melayani warga Malang Raya dan berbagai Instansi Pemerintah maupun Swasta.</p>
+
+          </div>
+          <div class="content-choose col-lg-4 col-md-6 col-sm-12 text-center">
+            <i class="bi bi-people-fill"></i>
+            <h3>Profesional Tim</h3>
+            <p>Berpengalaman menjaga kualitas masakan & pelayanan selama lebih dari 5 tahun melayani warga Malang Raya dan berbagai Instansi Pemerintah maupun Swasta.</p>
+
+          </div>
+          
+          
+         
+        </div>
+        </div>
+      </section>
+      <section class="galeri-kami bg-white" id="fotoGallery">
+        <div class="container">
+            <div class="header-gallery text-center">
+              <h1>GALLERY</h1>
+
+            </div>
+          
+          
+        </div>
+      </section>
+
+      <section class="testinomi" id="testimonial">
+        <div class="container">
+          <div class="header-testimoni text-center">
+            <h1>TESTIMONIAL</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact bg-white" id="contactUs">
+        <div class="container">
+          <div class="header-contact">
+
+          <h1 class="text-center">CONTACT US</h1>
+          </div>
+          <div class="row justify-content-center text-center">
+            <div class="daftar-contact col-lg-4 col-md-12 col-sm-12 ">
+              <h2>Catering Mbak I'A</h2>
+              <h4>Hubungi Kami Melalui</h4>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-whatsapp"></i></a>
+             <a href=""><i class="bi bi-instagram"></i></a>
+
+            </div>
+            <div class="maps-contact col-lg-8 col-md-12 col-sm-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.030088402704!2d112.61404131432872!3d-7.995829681967812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788320922b81df%3A0x6b5a9d4dccbd1796!2sCatering%20Mbak%20I&#39;a!5e0!3m2!1sen!2sid!4v1656985994191!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+     <footer class="section-footer mt-5 ">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>MENU</h5>
+                <ul class="list-unstyled">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#infoPackage">Package</a></li>
+                  <li><a href="#">Info</a></li>
+                  <li><a href="#aboutUs">About</a></li>
+                  <li><a href="#contactUs">Contact</a></li>
+                  <li><a href="#testimonial">Testimonial</a></li>
+                  <li><a href="#fotoGallery">Gallery</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>PACKAGE</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Wedding Package</a></li>
+                  <li><a href="#">Khitan Package</a></li>
+                  <li><a href="#">Aqiqah Package</a></li>
+                  <li><a href="#">Engagement Package</a></li>
+                  <li><a href="#">Compliment Package</a></li>
+                  <li><a href="#">Nasi Kotak</a></li>
+                  <li><a href="#">Tumpeng</a></li>
+                  <li><a href="#">Kue Basah | Kue Kering</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>SOCIAL MEDIA</h5>
+                <ul class="list-unstyled">
+
+                  <li>
+                    <a href=""><i class="bi bi-facebook"></i></a> 
+                    <a href=""><i class="bi bi-whatsapp"></i></a> 
+                    <a href=""><i class="bi bi-instagram"></i></a></li>
+                  
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#contactUs">Jl. S. Supriadi Gg. 6, Sukun, Kec. Sukun, 
+                    Kota Malang, Jawa Timur 65147</a></li>
+                  <li><a href="#">082222222222</a></li>
+                  <li><a href="#">coba@gmail.com</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright border-top text-center">
+        <p>2022 Copyright Catering Mbak I'A •  Made in Malang</p>
+      </div>
+    </footer>
+    
+<section class="wa-stuck">
+      
+      <a href=""><span>Hubungi Kami </span></a>
+      <a href=""><img src="frontend/images/logowa.png" alt=""></a>
+
+    </section>
     <script src="frontend/libraries/retina/retina.js"></script>
     <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
